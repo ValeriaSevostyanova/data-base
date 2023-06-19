@@ -1,2 +1,2 @@
 # data-base
-connect to db
+подключиться к базе данных
