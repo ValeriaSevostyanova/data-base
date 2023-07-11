@@ -1,7 +1,5 @@
-import sqlite3 # специальная библиотека для создания базы данных и работы с ней
-'''
-ЗДЕСЬ МЫ ПОДКЛЮЧАЕМ БД И СОЗДАЕМ В НЕЙ ТАБЛИЦУ
-'''
+import sqlite3 
+
 try:
     sqlite_connection = sqlite3.connect('sqlite_python.db')
     sqlite_create_table_query = '''CREATE TABLE sqlitedb_developers (
