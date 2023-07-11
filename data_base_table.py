@@ -1,8 +1,4 @@
-'''
-ЗДЕСЬ СОЗДАЕМ БД, В НЕЙ ТАБЛИЦУ, В НЕЙ ИНФОРМАЦИЮ
-'''
-# база данных
-import sqlite3  # специальная библиотека для создания базы данных и работы с ней
+import sqlite3 
 
 try:
     sqlite_connection = sqlite3.connect('sqlite_python.db')  # либо создаем саму базу данных
@@ -36,7 +32,6 @@ finally:  # отработает в любом случае не важно чт
         print("Соединение с SQLite закрыто")
 
 # sqlitedb_developers -название таблицы
-### Создание таблица
 '''CREATE TABLE sqlitedb_developers (
                                 id INTEGER PRIMARY KEY,
                                 name TEXT NOT NULL);'''
